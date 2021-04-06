@@ -6,9 +6,9 @@ body{
     padding: 10px;
     background-color: whitesmoke;
 }
-.header{
+header{
   background-color: gray;
- 
+  margin: 30px;
  }
  
 nav{
@@ -20,46 +20,58 @@ nav{
     padding-right: 5px;
     
 }
-.placeholder{
+header nav img{
 float: left;
 padding-left: 100px;
 padding-top: 25px ;
+
 }
 
 nav ul{
     padding-left:1px;
 }
+
 nav ul li{
 
     display: inline-block;
     padding-top: 30px;
     padding-left: 50px;
+   
 }
 main{
-margin-bottom: 25px;
+margin-bottom: 500px;
+vertical-align: middle;
 }
-.placeholder2{
-    width: 100%;
+main img{
+    width: 95%;
+    margin: 10px;
 }
-.second{
-    display: inline-block;
-    
+main section{
+   display: inline-block;
+   width:98%;
+   margin-left: 1%;
 }
-.placeholder3{
-    width: 33%;
+main section img{
+  width: 400px;
     padding: 1%;
 }
 
 
-.placeholder4{
+main div img{
     width:50%;
     float: left;
     padding-right: 50px;
+    padding-left: 30px;
 }
-p{display: inline-block;
+main h3{
+    font-style:italic;
+}
+p{
+    display: inline-block;
     font-weight: bold;
     text-align: justify;
     width: 40%;
+    margin-top: 30%;
    
 }
 footer{
