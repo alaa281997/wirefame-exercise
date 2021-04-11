@@ -5,12 +5,18 @@
 body{
     padding: 10px;
     background-color: whitesmoke;
+    margin: 30px
 }
-header{
-  background-color: gray;
-  margin: 30px;
+body header{
+    background-color: gray;
+    padding:10px; 
+    z-index: -1;
+    height: 100px;
+}
+ a{
+     color: white;
+     text-decoration: none;
  }
- 
 nav{
 
     margin-bottom: 20px;
@@ -39,8 +45,9 @@ nav ul li{
    
 }
 main{
-margin-bottom: 500px;
 vertical-align: middle;
+margin-bottom: 30px;
+margin-top: 30px;
 }
 main img{
     width: 95%;
@@ -50,6 +57,8 @@ main section{
    display: inline-block;
    width:98%;
    margin-left: 1%;
+   margin-top: 30px;
+   margin-bottom: 30px;
 }
 main section img{
   width: 400px;
@@ -64,18 +73,27 @@ main div img{
     padding-left: 30px;
 }
 main h3{
-    font-style:italic;
-}
-p{
-    display: inline-block;
     font-weight: bold;
-    text-align: justify;
-    width: 40%;
-    margin-top: 30%;
-   
 }
+
 footer{
     background-color: gray;
     height: 100px;
-    margin-top: 400px;
+}
+header img{
+        float:left;
+   }
+main div div div{
+    width: 45%;
+    height: 370px;
+    overflow: scroll;
+}
+P{
+  font-style: italic;
+}
+button{
+     color: white;
+    background-color: black;
+    width:15%;
+    height: 30px;
 }
