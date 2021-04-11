@@ -91,8 +91,8 @@ main div div div{
 P{
   font-style: italic;
 }
-button{
-     color: white;
+button:hover{
+    color: white;
     background-color: black;
     width:15%;
     height: 30px;
